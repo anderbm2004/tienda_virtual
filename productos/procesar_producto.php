@@ -1,5 +1,5 @@
 <?php
-include '../db.php'; // Conecta con la BD (ajusta la ruta si es necesario)
+include '../db.php'; // Conecta con la BD 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = $_POST['nombre'];

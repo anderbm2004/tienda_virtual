@@ -1,8 +1,9 @@
 <?php
-$host = "localhost"; 
-$user = "root";
-$pass = "1039884096"; 
-$dbname = "tienda_virtual"; 
+//informacion para conexion de la base de datos
+$host = "localhost"; //servidor
+$user = "root"; //usuario
+$pass = "1039884096"; //contraseña
+$dbname = "tienda_virtual"; //nombre de la bd
 
 
 $conn = new mysqli($host, $user, $pass, $dbname);

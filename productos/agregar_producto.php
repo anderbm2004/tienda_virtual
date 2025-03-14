@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="container">
-    <h2>Agregar Producto</h2>
+<h2>Agregar Producto</h2>
     <form action="procesar_producto.php" method="POST">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
