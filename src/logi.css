@@ -1,0 +1,63 @@
+/* Estilos generales */
+.login-container {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Título de inicio de sesión */
+.login-container h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Inputs con animación para placeholders */
+.input-container {
+    position: relative;
+    margin: 15px 0;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-container label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.3s;
+    color: gray;
+    pointer-events: none;
+}
+
+.input-container input:focus + label,
+.input-container input:not(:placeholder-shown) + label {
+    top: 0;
+    left: 10px;
+    font-size: 12px;
+    color: #3366cc;
+}
+
+/* Botón de inicio de sesión */
+.login-container button {
+    width: 70%;
+    padding: 10px;
+    background-color: #1e5187;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0a73e3;
+}

@@ -1,0 +1,139 @@
+
+.login-container {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+  }
+   /* personalización del titulo*/
+   .title {
+    font-size: 60px;
+    color: #3366cc;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #3366cc;
+    position: relative;
+    display: inline-block;
+}
+
+.title::after {
+    content: "TIENDA DIGITAL";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    color: #3366cc;
+    transform: scaleY(-1);
+    opacity: 0.4;
+    filter: blur(1px);
+    background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, transparent 100%);
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%, transparent 100%);
+}
+
+/* definicion y modificacion del logo*/
+
+.login-container .logo{
+  width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+.logo {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%); /* Centra la imagen */
+}
+.logo :hover{
+  transform: scale(1.1); /* Aumenta el tamaño al pasar el mouse */
+  transition: transform 0.3s ease-in-out; /* Transición suave */
+  color: #818181;
+}
+  /* titulo de inicio sesion*/
+  .login-container h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+  }
+  
+ /*modificacion de los place-holders*/
+.correo{
+  position: relative;
+        border-bottom: 2px solid #818181;
+        margin: 30px 0;
+}
+.correo input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.correo::placeholder{
+  color: #818181;
+  font-size: 16px;
+  font-weight: bold;
+}
+.contrasena input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.contrasena{
+  position: relative;
+  border-bottom: 2px solid #818181;
+  margin: 30px 0;
+}
+
+
+
+  /*boton de inicio sesion*/
+  .login-container button {
+    width: 70%;
+  
+    padding: 10px;
+    background-color: #1e5187;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .login-container button:hover {
+    background-color: #0a73e3;
+  }
+  /*texto olvido su contraseña*/
+  .forgot-password{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .login-box a{color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: transform 0.3s ease-in-out;
+  }
+  .login-box a:hover {
+    color: #107dea;
+    
+  }
+
+  
+
+
