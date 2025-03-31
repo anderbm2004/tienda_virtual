@@ -1,49 +1,70 @@
-Tienda Virtual
+# Getting Started with Create React App
 
-hola soy Anderson estudiante de desarrollo de software y quiero ofrecer una bienvenida a mi tienda virtual, un proyecto estudiantil que busca emplear los conocimientos adquiridos en el transcurso de la carrera, este proyecto web que está siendo construido en un ambiente web usa PHP, MySQL, JavaScript, HTML y CSS. Este sistema permite gestionar productos mediante funciones de agregar, editar, eliminar, listrar entre otras que surgen con el avance del proyecto.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Tecnologías Utilizadas
+## Available Scripts
 
--Lenguajes: PHP, JavaScript, HTML, CSS.
--Base de Datos: MySQL.
--Servidor Local: XAMPP (Apache, MySQL, PHP).
--Control de Versiones: Git y GitHub.
+In the project directory, you can run:
 
-Instalacion:
+### `npm start`
 
-Clonar el repositorio:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-git clone https://github.com/anderbm2004/tienda_virtual.git
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Importar la base de datos:
-1-Abrir phpMyAdmin en el navegador.
-2-Crear una base de datos llamada tienda_virtual.
-3-Importar el archivo db/tienda_virtual.sql.
-4-Configurar la conexión:
-5-Editar el archivo db.php con los datos de tu servidor local.
-6-Ejecutar el proyecto:
-7-Iniciar Apache y MySQL en XAMPP.
-8-Acceder desde el navegador a http://localhost/tienda_virtual
+### `npm test`
 
-Estructura del proyecto
-/tienda_virtual
-│── /css           Archivos de estilos
-|── /db            Base de datos(script.sql) 
-│── /js            Archivos JavaScript
-│── /productos     Módulo de productos 
-│── /usuarios      Módulo de usuarios (futuro desarrollo)
-│── db.php         Configuración de la base de datos
-│── index.php      Página principal
-│── README.md 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Funcionalidades Implementadas:
+### `npm run build`
 
--Agregar productos con nombre, categoría, proveedor, precio, stock y descripción.
--Listar productos en una tabla con botones de edición y eliminación.
--Editar productos y actualizar los datos almacenados en la base de datos.
--Eliminar productos con confirmación para evitar errores.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Próximos Pasos
--Implementar autenticación de usuarios.
--Mejorar la interfaz con un framework CSS como Bootstrap o Tailwind.
--Agregar un sistema de roles para gestionar permisos de usuario.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
